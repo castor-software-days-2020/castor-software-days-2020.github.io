@@ -1,1 +1,133 @@
-theme: jekyll-theme-cayman
+---
+title: CASTOR
+timezone: UTC
+collections:
+  calendar:
+    title: Calendar
+    output: false
+  hidden_pages:
+    title: Hidden pages
+    output: true
+    permalink: "/:path"
+  keynotes:
+    title: Keynotes
+    output: true
+    permalink: "/:path"
+  pages:
+    title: Pages
+    output: true
+    permalink: "/:path"
+  posts:
+    title: Posts
+    output: true
+  speakers:
+    title: Speakers
+    output: true
+    permalink: "/:path"
+  uploads:
+    title: Uploads
+    output: true
+subtitle: Software Days
+url: https://castor-software-days-2019.github.io/
+baseurl: ''
+email: sw-days-organizers@kth.se
+description: Three days about software technology for students, developers, researchers
+  and all software passionates
+posters:
+- link: CASTORPosterSession_Deepika.pdf
+- link: cda-poster.pdf
+- link: cesar-soto-valero.pdf
+- link: didrik-lundberg.pdf
+- link: forough-shahab.pdf
+- link: mikhail-shcherbakov.pdf
+- link: poster-scamv.pdf
+- link: rodothea-myrsini-tsoupidi.pdf
+organization:
+- name: Benoit Baudry
+  pic: benoit
+  position: General co-chair and DevOps track co-chair
+  social:
+  - title: globe
+    url: https://softwarediversity.eu
+  - title: envelope
+    url: mailto:baudry@kth.se
+- name: Frédéric Loiret
+  pic: frederic
+  position: General co-chair and DevOps track co-chair
+  social:
+  - title: globe
+    url: http://www.scanx.org/loiret/
+  - title: envelope
+    url: mailto:floiret@kth.se
+- name: Amir H. Payberah
+  pic: amir
+  position: Distributed systems track co-chair
+  social:
+  - title: globe
+    url: https://payberah.github.io/
+  - title: envelope
+    url: mailto:payberah@kth.se
+- name: Musard Balliu
+  pic: musard
+  position: Safety and security track co-chair
+  social:
+  - title: globe
+    url: https://www.csc.kth.se/~musard/
+  - title: envelope
+    url: mailto:musard@kth.se
+- name: Cyrille Artho
+  pic: cyrille
+  position: Safety and security track co-chair
+  social:
+  - title: globe
+    url: https://people.kth.se/~artho/
+  - title: envelope
+    url: mailto:artho@kth.se
+- name: Philipp Haller
+  pic: philipp
+  position: Distributed systems track co-chair
+  social:
+  - title: globe
+    url: http://www.csc.kth.se/~phaller/
+  - title: envelope
+    url: mailto:phaller@kth.se
+- name: Maria Berthelius
+  pic: maria
+  position: Local organizer
+  social:
+  - title: globe
+    url: https://www.kth.se/profile/berthel
+  - title: envelope
+    url: mailto:berthel@kth.se
+- name: Alexandra Leyton
+  pic: alexandra
+  position: Student liaison and communication
+  social:
+  - title: globe
+    url: https://www.kth.se/profile/aleyton
+  - title: envelope
+    url: mailto:aleyton@kth.se
+- name: Oscar Luis Vera-Pérez
+  pic: oscar
+  position: Web consultant
+  social:
+  - title: globe
+    url: https://www.linkedin.com/in/oscar-luis-vera-p%C3%A9rez-608392125
+  - title: envelope
+    url: mailto:oscar.vera-perez@inria.fr
+- name: Javier Cabrera-Arteaga
+  pic: javier
+  position: Web consultant
+  social:
+  - title: globe
+    url: https://www.kth.se/profile/javierca
+  - title: envelope
+    url: mailto:javierca@kth.se
+social:
+- title: envelope
+  url: mailto:sw-days-organizers@kth.se
+- title: globe
+  url: https://www.castor.kth.se
+- title: twitter
+  url: https://twitter.com/CastorKth
+markdown: kramdown

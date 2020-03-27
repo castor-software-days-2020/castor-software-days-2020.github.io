@@ -1,0 +1,30 @@
+- date: 2019-10-14
+  presentations:
+    - from: '09:15'
+      to: '10:00'
+      type: keynote
+      title: Some awesome title for a keynote
+      abstract: This keynote will leave everyone else amazed
+      speaker: Awesome Speaker
+      bio: This pal has done many many things
+      url: http://example.com
+    - from: '10:30'
+      to: '10:50'
+      type: academic
+      title: An awesome academic result
+      abstract: An awesome academic result in the lab
+      speaker: Awesome Professor
+      bio: Big professor
+      url: http://example.com
+    - from: '14:55'
+      to: '15:15'
+      type: industry
+      title: Awesome industry experience
+      abstract: An awesome industry experience applying academic results
+      speaker: Awesome Engineer
+      bio: Working in industry
+      url: http://example.com
+- date: 2019-10-15
+  presentations: []
+- date: 2019-10-16
+  presentations: []

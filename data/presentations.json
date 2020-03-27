@@ -1,0 +1,24 @@
+---
+---
+
+[
+{% for day in site.data.presentations %}
+{% unless forloop.first or day.presentations %},{% endunless %}
+{% for presentation in day.presentations %}
+{
+    "start": "{{day.date}}T{{presentation.from}}:00",
+    "end": "{{day.date}}T{{presentation.to}}:00",
+    "classNames": ["program-presentation", "{{presentation.type}}-presentation"],
+    "title": "{{presentation.title}}",
+    "abstract": "{{presentation.abstract}}",
+    "speaker": {
+        "name": "{{presentation.speaker}}",
+        "bio": "{{presentation.bio}}",
+        "url": "{{presentation.url}}"
+    },
+    
+    "textColor": "#656565"
+}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+{% endfor %}
+]

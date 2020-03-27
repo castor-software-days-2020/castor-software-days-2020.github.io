@@ -1,0 +1,363 @@
+.page-wrapper{
+    padding: 50px;
+
+}
+.page-wrapper p {
+
+    margin-top: 30px;
+
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: flex-start;
+
+    cursor: pointer;
+}
+
+.title-container > h2{
+    margin: 0;
+    margin-bottom: 5px;
+}
+.title-container > h5{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.link-badge{
+    position: relative;
+    top: 10px;
+    left: 0;
+
+    zoom: 0.7
+}
+
+.link-badge2{
+    position: relative;
+    top: 50px;
+    left: -20px;
+
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+.post-url{
+    
+}
+
+.fc-time-grid-event{
+    background-color: red: !important
+}
+
+.program-presentation, .program-event{
+    font-size: 12pt !important;
+    min-height: 30px;
+}
+
+#full-calendar td, th{
+    border: none;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.program-event{
+
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase; 
+
+    border: none !important;
+    border-radius: unset !important;
+
+    background-color: unset !important;
+
+    border-left: 15px  solid !important;
+    border-top: 1px solid !important;
+    border-bottom: 1px  solid !important;
+
+    padding-left: 10px;
+
+    box-shadow: #212121;
+}
+
+.keynote-event{
+    border-color: #6a554d !important;
+}
+
+
+.session-event{
+    border-color: #e6d3b8 !important;
+}
+
+.demo-event{
+    border-color: #aa554d !important;
+}
+
+.break-event{
+    border-color: #565e63 !important;
+}
+
+.program-track{
+    text-transform: uppercase; 
+
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    background-color: #323639 !important;
+    border: none !important;
+    border-radius: 0 !important;
+
+    min-height: 20px !important;
+
+    padding-top: 20px !important;
+
+    text-align: center;
+
+    font-size: 15pt !important;
+
+    font-weight: bold;
+}
+
+
+.program-track span{
+
+    bottom: 5px !important;
+    position: relative;
+}
+
+.program-track fc-content{
+    bottom: -100px !important;
+}
+
+.fc-day-header, .fc-axis {
+    text-transform: uppercase; 
+    border: none !important;
+
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    font-size: 18pt !important;
+    color: #212121 !important;
+
+    bottom: 0px !important;
+    position: relative;
+}
+
+.fc-time{
+    text-transform: uppercase; 
+
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    font-size: 10pt !important;
+    color: #212121 !important;
+
+}
+
+
+
+.fc-axis.fc-time{
+    text-align: center !important;
+}
+
+
+.fc-axis.fc-time{
+    margin-right: 10px !important;
+    font-weight: bold;
+    padding: 0 !important;
+
+}
+
+.fc-axis{
+    content: "TIME";
+
+    
+}
+
+.fc-scroller{
+    height: auto !important;
+    overflow: unset !important;
+
+}
+
+.fc-divider{
+    display: none !important;
+}
+
+.fc-axis.fc-time.fc-widget-content{
+    position: relative !important;
+    top: -5px !important;
+}
+
+.page-content p{
+    font-size: 13pt;
+    
+    margin-bottom: 20px;
+}
+
+.fc-axis.fc-time.fc-widget-content{
+    height: 40px;
+    vertical-align: top;
+}
+.fc-event-container{
+    cursor: pointer;
+}
+
+.page-content h1, .page-content h2, .page-content h3, .page-content h4, .page-content h5{
+    margin-bottom: 45px;
+
+    margin-top: 45px;
+
+    text-align: center;
+}
+
+.page-content a{
+    color: #6a554d;
+}
+
+.event-author{
+    font-size: 7pt;
+    font-weight: bold;
+    margin-left: 10px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+.event-description{
+    font-size: 8pt;
+    margin-top: 10px;
+
+}
+
+
+
+.event-address{
+    text-align: right;
+    width: 100%;
+
+    margin-top: 15px;
+    font-size: 10pt;
+
+    position: absolute;
+    bottom: 0;
+
+    right: 10px;
+}
+
+.flexi{
+    
+}
+
+.event-address i{
+    font-size: 14pt;
+    margin-right: 10px;
+}
+.fc-title{
+    font-size: 12pt;
+    max-width: 140px;
+}
+
+.register-btn{
+    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18pt;
+
+    margin-top: 40px;
+}
+
+.mobile{
+    display: none;
+}
+
+.crow{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.ccol{
+    flex: 1;
+
+    align-self: flex-start;
+}
+
+@media only screen and (max-width: 750px) {
+    
+    img{
+        max-width: 280px;
+    }
+    .intro-heading{
+        font-size: 35px !important;
+    }
+    .section-heading{
+        font-size: 28px !important;
+    }
+
+    .not-mobile{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .fc-toolbar,.fc-event-dot{
+        display: none !important;
+    }
+
+    .event-author, .event-description{
+        position: unset;
+        margin-left: 0;
+        margin-top: 2px;
+
+    }
+
+    .fc-list-item-time,.fc-list-item-title > a{
+        font-size: 8pt;
+    }
+
+    .crow{
+        display: block;
+    }
+
+    .event-address{
+        position: unset;
+    }
+}
+
+.slides{
+    width: 100%;
+    border: none;
+    min-height: 800px;
+}
+
+.poster-container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+
+    align-items: center;
+
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+}
+
+.poster-pdf{
+    border: none;
+    width: 47%;
+
+    margin-right: 20px;
+    margin-left: 20px;;
+
+    margin-bottom: 20px;
+
+    min-height: 350px;
+}

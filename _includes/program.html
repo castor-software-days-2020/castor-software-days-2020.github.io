@@ -1,0 +1,126 @@
+<section id="program">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Program</h2>
+                <!-- <h3 class="section-subheading text-muted">TBA</h3> -->
+                <div id="full-calendar" class="not-mobile"></div>
+
+                <div id="full-calendar-mobile" class="mobile"></div>
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                            var calendarNotMobile = new FullCalendar.Calendar(
+                             document.getElementById("full-calendar"),
+                            {
+                                plugins: ['timeGrid',  'moment'],
+                                header: { center: '', left: '', right: '' },
+                                minTime: "09:00:00",
+                                maxTime: "24:00:00",
+                                nowIndicator: false,
+                                slotDuration: "00:20:00",
+                                timeGridMinEventHeight: 60,
+                                visibleRange: {
+                                    start: '2019-10-14',
+                                    end: '2019-10-17'
+                                },
+                                columnHeaderText: function(date) {
+                                    
+                                    return moment(date).format('ddd D/MM');
+                                },
+                                defaultView: 'timeGrid',   
+                                selectable: true, 
+                                eventRender: function(e) {
+                                    
+                                    $(e.el).addClass("flexi")
+
+                                    if(e.event.extendedProps.author)
+                                        $(e.el).append(`<div class="event-author">${e.event.extendedProps.author}</div>`);
+                                    
+                                    if(e.event.extendedProps.description)
+                                        $(e.el).append(`<div class="event-description">${e.event.extendedProps.description}</div>`);
+                                    
+                                    if(e.event.extendedProps.place){
+                                        const mapbtn = $(`<div class="event-address"><i class="fa fa-map-marker"></i>${e.event.extendedProps.place}</div>`)
+
+
+                                        if(e.event.extendedProps.placeLink){
+                                            mapbtn.click(function(clickEvent){
+                                                clickEvent.preventDefault();
+
+                                                window.open(e.event.extendedProps.placeLink, '_blank');
+                                            })
+                                        }
+                                        $(e.el).append(mapbtn);
+                                    }
+                                    
+                                },
+                                eventSources: ['data/schedule.json', 'data/presentations.json'],
+                            }
+                        );
+                        calendarNotMobile.render();
+
+                        var calendarMobile = new FullCalendar.Calendar(
+                             document.getElementById("full-calendar-mobile"),
+                            {
+                                plugins: ['list'],
+                                defaultView: 'listYear',  
+                                timezone: 'UTC', 
+                                selectable: true, 
+                                visibleRange: {
+                                    start: '2019-10-14',
+                                    end: '2019-10-17'
+                                },
+                                eventRender: function(e) {
+                                    
+                                    const td = $(e.el).find("td.fc-list-item-title");
+
+                                    if(e.event.extendedProps.author)
+                                        $(td).append(`<div class="event-author">${e.event.extendedProps.author}</div>`);
+                                    
+                                    if(e.event.extendedProps.description)
+                                        $(td).append(`<div class="event-description">${e.event.extendedProps.description}</div>`);
+                                    
+                                        if(e.event.extendedProps.place){
+                                        const mapbtn = $(`<div class="event-address"><i class="fa fa-map-marker"></i>${e.event.extendedProps.place}</div>`)
+
+
+                                        if(e.event.extendedProps.placeLink){
+                                            mapbtn.click(function(clickEvent){
+                                                clickEvent.preventDefault();
+
+
+                                                window.open(e.event.extendedProps.placeLink, '_blank');
+                                            })
+                                        }
+                                        $(td).append(mapbtn);
+                                    }
+                                },
+                                eventSources: ['data/schedule.json', 'data/presentations.json'],
+                            }
+                        );
+
+                        calendarMobile.render();
+                    });
+
+
+                    let previousWidth = 0;
+
+                    function checkResolution() {
+
+                        if(previousWidth != screen.width){
+                            previousWidth = screen.width
+
+                            if(screen.width <= 500) // change to listView
+                            {
+
+                            }
+                        }
+                        
+                    }
+
+                    //setInterval(() => checkResolution(), 500);
+                </script>
+            </div>
+        </div>
+    </div>
+</section>

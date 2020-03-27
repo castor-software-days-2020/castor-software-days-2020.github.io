@@ -1,0 +1,45 @@
+---
+layout: default2
+---
+
+{% include header.html home='/' %}
+
+
+<div class="jumbotron" style="padding-top: 280px; background-image: url('{{page.img.first}}'); background-size: cover;background-repeat: no-repeat;background-position: 50% 50%;">
+        <div class="container">
+            <h2 style=" font-size:32pt; color:white; text-align: center">{{page.title}}  
+            </h2>
+          
+        </div>
+    </div>
+    
+    
+
+<div class="container" >
+
+    <div class="page-content">
+        {{ content }}
+    </div>   
+
+
+    <div class="poster-container">
+        {% for poster in site.posters %}
+
+
+
+            <iframe class="poster-pdf" src="/pdf/web/viewer.html?file=/posters/{{poster.link}}"></iframe>
+
+        {% endfor %}
+    </div>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+        $("#title-link").click(() => {
+            window.location.replace("/")
+        })
+    }
+)
+
+</script>
