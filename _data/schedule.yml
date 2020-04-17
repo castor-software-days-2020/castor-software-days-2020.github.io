@@ -1,278 +1,38 @@
-- track: DevOps
-  date: 2019-10-14
+- track: Embedded Systems
+  date: 2020-10-12
   events: 
   - from: '09:00'
-    to: '10:00'
-    title: Keynote
-    description: cURL, a hobby project that conquered the world
-    author: Daniel Stenberg, wolfSSL
-    link: daniel_stenberg
-    type: keynote
-    place: D1
-    place_link: https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68
-  - from: '10:00'
-    to: '10:30'
-    title: Coffee Break
-    type: break
-  - from: '10:30'
-    to: '10:50'
-    type: session
-    title: 
-    author: Martin Monperrus , KTH
-    link: monperrus
-    place: D1
-    place_link: https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68
-  - from: '10:50'
-    to: '11:10'
-    type: session
-    title: 
-    author: Dan Green, Ericsson
-    link: green
-  - from: '11:10'
-    to: '11:30'
-    type: session
-    title: 
-    author: Maria Jernström, Spotify
-    description: 
-    link: jernstrom
-  - from: '11:30'
-    to: '11:50'
-    type: session
-    title: 
-    author: Ingela Persson, SAAB
-    link: ingela
-  - from: '11:50'
-    to: '13:15'
-    title: Lunch Break
-    type: break
-    place: Syster O Bror
-    place_link: http://www.systerobror.se/
-  - from: '13:15'
-    to: '14:15'
-    title: Keynote
-    description: 
-    author: Josh Kalderimis, Travis
-    link: kalderimis
-    type: keynote
-    place: D1
-    place_link: https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68
-  - from: '14:15'
-    to: '14:35'
-    type: session
-    title: 
-    author: Tobias Furuholm, Combient
-    link: furuholm
-  - from: '14:35'
-    to: '14:55'
-    type: session
-    title: 
-    author: Philip Haller, KTH
-    link: haller
-  - from: '14:55'
-    to: '15:30'
-    title: Coffee Break
-    type: break
-  - from: '15:30'
-    to: '16:30'
-    title: Ligthning Talks and Demos
-    type: demo
-    author: Johan Tordsson, Mehrdad Mamaghani and Simone Stefani
-    link: 
-  - from: '18:30'
-    to: '24:00'
-    title: Hackathon
-    type: session
-    link: ci_art_hackathon
-    author: R1 Reaktorhallen,  KTH
-    place: R1
-    place_link: https://www.kth.se/places/room/id/2cf1cb78-208e-424a-a931-7ce01e80e624
-  - from: '17:00'
-    to: '18:00'
-    title: Reception
-    type: break
-    author: R1 Reaktorhallen,  KTH
-    place: R1
-    place_link: https://www.kth.se/places/room/id/2cf1cb78-208e-424a-a931-7ce01e80e624
-  
-- track: Security & safety
-  date: 2019-10-15
-  events: 
-  
-  - from: '09:00'
-    to: '10:00'
-    title: Keynote
-    description: Security Protocols, Model Checking Standards
-    author: David Basin, ETH Zurich
-    link: david_basin
-    type: keynote
-    place: D1
-    place_link: https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68
-  - from: '10:00'
-    to: '10:30'
-    title: Coffee Break
-    type: break
-  - from: '10:30'
-    to: '10:50'
-    type: session
-    title: 
-    author: Andrei Sabelfeld, Chalmers
-    link: sabelfeld
-    place: D1
-    place_link: https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68
-  - from: '10:50'
-    to: '11:10'
-    type: session
-    title: 
-    author: Pontus Johnson, KTH
-    link: johnson
-  - from: '11:10'
-    to: '11:30'
-    type: session
-    title:
-    author: Daniel Deogun and Dan Bergh Johnsson, OmegaPoint
-    link: bergh
-  - from: '11:30'
-    to: '11:50'
-    type: session
-    title: 
-    author: Roberto Guanciale, KTH
-    link: guanciale
-  - from: '11:50'
-    to: '13:15'
-    title: Lunch and poster session
-    type: break
-    place: U21
-    place_link: https://www.kth.se/places/room/id/de8a7fa7-90dc-4ae7-ab75-282b6020d8a5
-  - from: '13:15'
-    to: '14:15'
-    title: Keynote
-    type: keynote
-    author: Dimitra Giannakopoulou, NASA Ames
-    description: Challenges in Verification and Validation of Autonomous Systems
-    link: dimitra
-    place: D1
-    place_link: https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68
-  - from: '14:15'
-    to: '14:35'
-    type: session
-    title: 
-    author: Elena Troubitsyna, KTH
-    link: troubitsyna
-  - from: '14:35'
-    to: '14:55'
-    type: session
-    title:
-    author: Francesca Palombini, Ericsson Research
-    link: palombini
-  - from: '14:55'
-    to: '15:15'
-    type: session
-    title: 
-    author: Leila Bahri, KTH
-    link: bahri
-  - from: '15:15'
-    to: '15:45'
-    title: Coffee Break
-    type: break
-  - from: '15:45'
-    to: '16:45'
-    title: Ligthning Talks and Demos
-    type: demo
-  - from: '20:00'
-    to: '21:30'
-    type: session
-    title: 'Classical, Electroacoustic Music'
-    link: 'https://www.kmh.se/konserter---evenemang/alla/musik-data---data-musik.html'
-    description: A concert that describes the transformation of music into data and data into music. Collaboration with Swedish Workshop on Data Science
-    author: Kungl. Musikhögskolan
-    place: Kungl. Musikhögskolan
-    place_link: https://www.google.com/maps/place/Real+Conservatorio+de+Estocolmo/@59.3448555,18.0822084,15z/data=!4m2!3m1!1s0x0:0x7f662e2855546bef?sa=X&ved=2ahUKEwi20JmA15HlAhWKE5oKHb1cACgQ_BIwDXoECAoQCA
-
-- track: Distributed systems
-  date: 2019-10-16
-  events: 
-
-  - from: '09:00'
-    to: '10:00'
-    title: Keynote
-    type: keynote
-    description: Scaling Deep Learning on Multi-GPU Servers
-    author: Peter Pietzuch, Imperial College London
-    link: pietzuc
-    place: D1
-    place_link: https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68
-  - from: '10:00'
-    to: '10:30'
-    title: Coffee Break
-    type: break
-  - from: '10:30'
-    to: '11:00'
-    type: session
-    title: 
-    author: Sahar Asadi, King
-    link: asadi
-    place: D1
-    place_link: https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68
-  - from: '11:00'
-    to: '11:30'
-    type: session
-    title: 
-    author: Paris Carbone, RISE
-    link: carbone
-  - from: '11:30'
-    to: '12:00'
-    type: session
-    title: 
-    author: Prem Jonnalagadda, Barefoot
-    link: prem
-  - from: '12:00'
-    to: '13:15'
-    title: Lunch Break
-    type: break
-    place: Syster O Bror
-    place_link: http://www.systerobror.se/
-  - from: '13:15'
-    to: '14:15'
-    title: Keynote
-    type: keynote
-    author: Ziawasch Abedjan, TU Berlin 
-    link: abedjan
-    description: A Holistic Approach for Effective Error Detection
-    place: D1
-    place_link: https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68
-  - from: '14:15'
-    to: '14:45'
-    title: Coffee Break
-    type: break
-  - from: '14:45'
-    to: '15:15'
-    type: session
-    title: 
-    author: Sina Sheikholeslami, KTH
-    link: sina
-  - from: '15:15'
-    to: '15:45'
-    type: session
-    title: 
-    author: Amira Soliman, RISE
-    link: amira
-    place: D1
-    place_link: https://www.kth.se/places/room/id/31c019b9-674b-41ca-aa5b-6b0a2ab0cc68
-  - from: '15:45'
-    to: '16:15'
-    type: session
-    title: 
-    author: Wolfgang John, Ericsson
-    link: john
-  - from: '16:15'
     to: '17:00'
-    title: Coffee Break
-    type: break
-  - from: '17:00'
-    to: '20:00'
-    title: LLVM meetup
-    type: session
-    link: https://www.meetup.com/LLVM-Clang-Sweden-socials/events/261609708/
+    title: TBA
+    description: TBA
+    author: TBA
+    link: 
+    type: 
+    place: TBA
+    place_link: TBA
 
+- track: DevOps & Chaos Engineering
+  date: 2020-10-13
+  events: 
+  - from: '09:00'
+    to: '17:00'
+    title: TBA
+    description: TBA
+    author: TBA
+    link: 
+    type: 
+    place: TBA
+    place_link: TBA
 
-    # R1, D1, U21, Syster O Bror, D34, Royal Music School
+- track: Distributed Systems & AI
+  date: 2020-10-14
+  events: 
+  - from: '09:00'
+    to: '17:00'
+    title: TBA
+    description: TBA
+    author: TBA
+    link: 
+    type: 
+    place: TBA
+    place_link: TBA
