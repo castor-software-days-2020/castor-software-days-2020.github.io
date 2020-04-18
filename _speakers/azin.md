@@ -1,7 +1,7 @@
 ---
 title: Azin
 name: Azin Ebrahimi
-_sort: Ebrahimi
+_sort: ebrahimi
 pic: azin
 layout: bio
 work_title: TBA
