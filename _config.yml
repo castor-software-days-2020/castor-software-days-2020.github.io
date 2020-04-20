@@ -58,14 +58,6 @@ organization:
     url: https://www.csc.kth.se/~musard/
   - title: envelope
     url: mailto:musard@kth.se
-- name: Cyrille Artho
-  pic: cyrille
-  position: Safety and security track co-chair
-  social:
-  - title: globe
-    url: https://people.kth.se/~artho/
-  - title: envelope
-    url: mailto:artho@kth.se
 - name: Elena Troubitsyna
   pic: elena
   position: Embedded systems track co-chair
@@ -74,6 +66,14 @@ organization:
     url: https://www.kth.se/profile/elenatro
   - title: envelope
     url: mailto:elenatro@kth.se
+- name: Martin Monperrus
+  pic: martin
+  position: DevOps track co-chair
+  social:
+  - title: globe
+    url: https://www.kth.se/profile/monp
+  - title: envelope
+    url: mailto:martin.monperrus@csc.kth.se
 - name: Matthias Becker
   pic: matthias
   position: Embedded systems track co-chair
@@ -82,6 +82,14 @@ organization:
     url: https://www.kth.se/profile/mabecker
   - title: envelope
     url: mailto:mabecker@kth.se
+- name: Cyrille Artho
+  pic: cyrille
+  position: Safety and security track co-chair
+  social:
+  - title: globe
+    url: https://people.kth.se/~artho/
+  - title: envelope
+    url: mailto:artho@kth.se
 - name: Maria Berthelius
   pic: maria
   position: Local organizer
