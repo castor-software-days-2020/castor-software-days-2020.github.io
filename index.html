@@ -5,8 +5,6 @@ layout: default
 {% include header.html home=''%}
 {% include jumbo.html %}
 {% include about.html %}
-{% include speakers.html %}
-{% include program.html %}
 
 {% for post in site.pages %}
     {% if post.header and post.in_main  %}
@@ -37,6 +35,3 @@ layout: default
     {% endif %}
 {% endfor %}
 
-{% include organization.html %}
-{% include venue.html %}
-{% include supporters.html %}
